@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Two Equal Columns</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2> <section id="side-bar2">
+        <div class="container">
+        <h1>log In</h1>
+        <form class="dark"> 
+       
+        <div class="label2">
+                <label>USERNAME</label>
+                 <input type="email" placeholder="enter your names..." id="inputplace1">
+        </div>
+        <div>
+                 <label>PASSWORD</label>
+                 <input type="password" placeholder="enter your password..." id="inputplace1">
+        </div>
+        
+                <button type="submit" class="button_1"><a href="Classes.html" >Log In</a></button>
+        </form>
+        </div>
+    </section></h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+
+</body>
+</html>

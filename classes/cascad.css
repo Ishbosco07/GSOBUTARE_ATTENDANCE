@@ -1,0 +1,72 @@
+h1 {
+    text-decoration: underline;
+    margin-left: 200px;
+}
+button{
+    padding: 20px;
+    border: 0.9px solid #ffffff ;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    
+}
+.classes button{
+    padding: 20px;
+    border: 0.9px solid #ffffff ;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    
+
+}
+.link{
+    padding: 21px;
+    background-color: black;
+    border-radius: 50%;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+header {
+
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.jpg);
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navigation-tab ul{
+    list-style: none;
+    float: right;
+    margin-right: 100px;
+    margin-top: 71px;
+  
+
+    
+}
+.navigation-tab ul li{
+    display: inline;
+  
+ 
+   
+    
+}
+.navigation-tab ul li a{
+     color: white;
+     background-color: transparent;
+     font-style: helvetica;
+     padding: 20px;
+     border-radius: 8px;
+     font-size: 20px;
+     text-decoration: none;
+     border: 0.2px solid #ffffff ;
+     transition: 0.6s ease;
+
+
+
+   
+  
+}
+.navigation-tab ul li a:hover{
+    background-color: blanchedalmond;
+    color: black;
+}

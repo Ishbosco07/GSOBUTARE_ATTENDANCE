@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+ header {
+
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(1.jpg);
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+}
+body{
+    background-image: url("3.jpg");
+    background-size: cover;
+    background-position: center;
+  background-color: aliceblue;
+	
+
+    
+}
+
+.navigation-tab ul{
+    list-style: none;
+    float: right;
+    margin-right: 100px;
+    margin-top: 60px;
+  
+
+    
+}
+.navigation-tab ul li{
+    display: inline;
+  
+ 
+   
+    
+}
+.navigation-tab ul li a{
+     color: white;
+     background-color: transparent;
+     font-style: helvetica;
+     padding: 20px;
+     border-radius: 8px;
+     font-size: 20px;
+     text-decoration: none;
+     border: 0.2px solid #ffffff ;
+     transition: 0.6s ease;
+
+
+
+   
+  
+}
+.navigation-tab ul li a:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+.dark{
+	padding:35px;
+	background:35424a;
+	margin: auto;
+	margin-bottom:10px;
+    color:#ffffff;
+    font-size: 20px;
+}
+#side-bar2 {
+    float: left;
+	margin-top: 100px;
+	padding:40px;
+	padding-bottom:140px;
+	background-color:rgb(4, 58, 68);
+}
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+#inputplace1{
+    padding: 10px;
+}
+.button_1{
+    padding: 14px;
+    background-color: black;
+    margin-top: 25px;
+    color: blanchedalmond;
+    border-radius: 10px;
+}
+#side-bar2 .container h1{
+   font-size: 45px;
+   color: blanchedalmond;
+   margin-left: 32px;
+
+}
+#side-bar2 .container .button_1{
+    background-color: black;
+    margin-top: 25;
+    width: 90px;
+    height: 50px;
+
+}
+#side-bar2 .container .button_1 a{
+    color: blanchedalmond;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1{
+	margin-left: 100px;
+	font-size: 60px;
+	color:#ffff;
+		
+}
+SVG{
+	width: 20PX;
+	height: 20PX;
+}
+
+#hide1{
+	display: none;
+}
+footer{
+    margin-top: 286px;
+    background-color: black;
+    height: 30vh;
+}
+footer h3{
+    color: #ffff;
+    font-size: 24px;
+    margin-left: 130px;
+    text-decoration: underline;
+    padding-top: 12px;
+}
+footer p {
+    color: #c4c4c4c4;
+    font-size: 18px;
+    margin-left: 130px;
+    
+    padding-top: 12px;
+}
